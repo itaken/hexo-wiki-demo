@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Itaken's Wiki Pages
+subtitle: 技术WIKI
 description:
-author: John Doe
-language:
+author: itaken
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: /
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:i_month/:i_day/:title/
 permalink_defaults:
 
 # Directory
@@ -69,10 +69,25 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# Markdown settings
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
+  render:
+    html: false
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: wixo  # landscape
+theme: wikiup  # landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -89,3 +104,10 @@ scratch_name: Scratch
 search:
   path: search.xml
   field: all
+
+# npm install --save hexo-renderer-scss
+node_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
