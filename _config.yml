@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Itaken's Wiki Pages
-subtitle: 技术WIKI
-description:
+title: Hexo Wiki
+subtitle: WIKI PAGES
+description: This is wiki themes demo
 author: itaken
-language: zh-CN
+language: 
 timezone:
 
 # URL
