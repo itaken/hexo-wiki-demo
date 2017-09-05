@@ -7,7 +7,7 @@ title: Hexo Wiki
 subtitle: WIKI PAGES
 description: This is wiki themes demo
 author: itaken
-language: 
+language: zh-CN
 timezone:
 
 # URL
@@ -94,6 +94,7 @@ theme: wikiup  # landscape
 deploy:
   type:
 
+# Themes settings
 rss: atom.xml
 fancybox: true
 favicon: favicon.ico
